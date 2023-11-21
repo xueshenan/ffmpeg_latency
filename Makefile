@@ -1,5 +1,5 @@
-CC=/opt/android/android-ndk-r22b/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android29-clang
-CXX=/opt/android/android-ndk-r22b/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android29-clang++
+CC=/opt/android/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android29-clang
+CXX=/opt/android/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android29-clang++
 
 ffmpeg_latency: main.cc
 	$(CXX) main.cc -o ffmpeg_latency \
