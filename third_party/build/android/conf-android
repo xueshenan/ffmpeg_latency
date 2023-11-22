@@ -1,4 +1,5 @@
 ndk_path=/opt/android/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/bin
+ndk_path=/Users/tbago/Library/Android/android-ndk-r26b/toolchains/llvm/prebuilt/darwin-x86_64/bin
 
 ../../ffmpeg/configure --prefix=../../release/ --enable-cross-compile --target-os=android \
     --arch=aarch64 cc=${ndk_path}/aarch64-linux-android30-clang --cross-prefix=${ndk_path}/llvm- \
